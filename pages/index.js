@@ -112,7 +112,7 @@ export default function Home() {
               What I Offer
             </h3>
             <p className="text-md py-2 leading-8 text-center text-gray-800 dark:text-gray-200">
-              As a junior front-end developer, I’m passionate about building
+              As a junior front-end developer, I&apos;m passionate about building
               engaging and easy-to-use websites that enhance user
               experiences,using modern coding languages to build the structure,
               style, and interactive elements that users see directly on a
@@ -375,7 +375,7 @@ export default function Home() {
          w-auto mx-auto from-cyan-500 text-2xl to-teal-500 text-white px-10 py-5 border-none rounded-md mt-5"   >
       
                 <AiFillLinkedin size={35} />
-               Let's Connect
+               Let&apos;s Connect
       </button>
       </a>
       </div>
