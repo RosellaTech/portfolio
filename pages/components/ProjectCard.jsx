@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const ProjectCard = ({ image, title, description, link }) => {
+const ProjectCard = ({ image, title, description, link }) => {
   return (
     <a
       href={link}
@@ -26,3 +26,5 @@ export const ProjectCard = ({ image, title, description, link }) => {
     </a>
   );
 };
+
+export default ProjectCard;

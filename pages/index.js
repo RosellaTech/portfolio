@@ -10,7 +10,7 @@ import Image from "next/image";
 import web1 from "../public/shopsy.png";
 import comingSoon from "../public/comming3.jpg";
 
-import { ProjectCard } from "./components/ProjectCard";
+import ProjectCard from "./components/ProjectCard";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
