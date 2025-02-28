@@ -2,13 +2,14 @@ import Head from "next/head";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/image_6483441 (1).JPG";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import teamwork from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/shopsy.png";
-import comingSoon from "../public/comming3.jpg";
+
+const deved = "/image_6483441 (1).JPG";
+const code = "/code.png";
+const design = "/design.png";
+const teamwork = "/consulting.png";
+const web1 = "/shopsy.png";
+const comingSoon = "/comming3.jpg";
 
 import ProjectCard from "./components/ProjectCard";
 
