@@ -26,14 +26,14 @@ export default function Home() {
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Rosella Echeruo | Portfolio" />
   <meta property="og:description" content="Explore my work, projects, and skills in Frontend development and design." />
-  <meta property="og:image" content="/image_6483441 (1).JPG" />
-  <meta property="og:url" content="https://yourwebsite.com" />
+  <meta property="og:image" content="https://rosella-techy.onrender.com/image_6483441 (1).JPG" />
+  <meta property="og:url" content="https://rosella-techy.onrender.com/" />
 
   {/* Twitter Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Rosella Echeruo | Portfolio" />
   <meta name="twitter:description" content="Discover my projects and expertise in development and design." />
-  <meta name="twitter:image" content="/image_6483441 (1).JPG" />
+  <meta name="twitter:image" content="https://rosella-techy.onrender.com/image_6483441 (1).JPG" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
