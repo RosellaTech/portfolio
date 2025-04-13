@@ -4,12 +4,15 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import Image from "next/image";
 
+
+
 const deved = "/image_6483441 (1).JPG";
 const code = "/code.png";
 const design = "/design.png";
 const teamwork = "/consulting.png";
 const web1 = "/shopsy.png";
-const comingSoon = "/comming3.jpg";
+
+
 
 import ProjectCard from "./components/ProjectCard";
 
@@ -179,33 +182,31 @@ export default function Home() {
             <ProjectCard
               image={web1}
               title={"E-commerce Website"}
-              description={`A responsive e-commerce web app built with Nextjs, React, Tailwind, HTML, CSS`}
-              link="https://rosella-shopsy.onrender.com"
+              description={`A responsive e-commerce web app built with Nextjs, React, Tailwind, HTML, CSS, Javascript`}
+              link="https://shopsy-rosellas-projects.vercel.app/"
             />
 
             <ProjectCard
-              image={comingSoon}
-              title={"Event Planer App (Coming soon)"}
-              description={` Currently work on an event planner websit with React, Tailwind, HTML, CSS`}
-              link="#"
+              image={"/Eventplanner1.png"}
+              title={"Event Planer Website"}
+              description={`An event planner websit app built with React, Tailwind, HTML, CSS & Javascript`}
+              link="https://event-planner-opal.vercel.app/"
             />
 
             <ProjectCard
-              image={comingSoon}
-              title={"Weather App (Coming soon)"}
-              description={` Another ongong project for a weather websit with React,
-                Tailwind, HTML, CSS`}
-              link="#"
+              image={"/smart-property1.png"}
+              title={"Real Estate Website"}
+              description={` A responsive real estate webs app built reactjs HTML CSS & Javasript`}
+              link="https://smart-properties-rho.vercel.app/"
             />
 
             <ProjectCard
-              image={comingSoon}
-              title={"Fitness Tracker (Coming soon)"}
-              description={` Fitness Tracker using HTML, CSS`}
-              link="#"
+              image={"/puma1.png"}
+              title={"E-commerce website"}
+              description={`A responsive e-commerce web app built React, Tailwind, HTML, CSS,`}
+              link="https://my-puma.vercel.app/"
             />
-
-            <ProjectCard
+            {/* <ProjectCard
               image={comingSoon}
               title={"A Recipe Finder (Coming soon)"}
               description={` A Recipe Finder, developed 
@@ -218,7 +219,7 @@ export default function Home() {
               title={" ReactJS Weather App (Coming soon)"}
               description={` ReactJS Weather application that allows users to search to know the weather forcase`}
               link="#"
-            />
+            /> */}
 
           </div>
         </section>
