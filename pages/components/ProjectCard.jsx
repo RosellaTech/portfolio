@@ -9,7 +9,7 @@ const ProjectCard = ({ image, title, description, link }) => {
       target="_blank"
     >
       <Image
-        className="rounded-3xl object-cover"
+        className="rounded-3xl object-cover border"
         width={"100%"}
         height={"100%"}
         layout="responsive"

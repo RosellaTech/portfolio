@@ -30,14 +30,14 @@ export default function Home() {
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Rosella Echeruo | Portfolio" />
   <meta property="og:description" content="Explore my work, projects, and skills in Frontend development and design." />
-  <meta property="og:image" content="https://rosella-techy.onrender.com/image_6483441 (1).JPG" />
-  <meta property="og:url" content="https://rosella-techy.onrender.com/" />
+  <meta property="og:image" content="https://rosella.vercel.app/image_6483441 (1).JPG" />
+  <meta property="og:url" content="https://rosella.vercel.app/" />
 
   {/* Twitter Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Rosella Echeruo | Portfolio" />
   <meta name="twitter:description" content="Discover my projects and expertise in development and design." />
-  <meta name="twitter:image" content="https://rosella-techy.onrender.com/image_6483441 (1).JPG" />
+  <meta name="twitter:image" content="https://rosella.vercel.app/image_6483441 (1).JPG" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -178,7 +178,7 @@ export default function Home() {
             My Recent Projects
           </h2>
 
-          <div className="flex flex-col gap-10 gap-y-20 py-10 lg:flex-row lg:flex-wrap">
+          <div className="grid lg:grid-cols-2 gap-10 gap-y-20 py-10">
             <ProjectCard
               image={web1}
               title={"E-commerce Website"}
@@ -202,10 +202,17 @@ export default function Home() {
 
             <ProjectCard
               image={"/puma1.png"}
-              title={"E-commerce website"}
+              title={"PUMA website redesign"}
               description={`A responsive e-commerce web app built React, Tailwind, HTML, CSS,`}
               link="https://my-puma.vercel.app/"
             />
+
+              <ProjectCard
+              image={"/portfolio1.png"}
+              title={"My Portfolio website"}
+              description={`A responsive e-commerce web app built Nextjs, React, Tailwind, HTML, CSS,`}
+              link="https://rosella.vercel.app/"
+            /> 
             {/* <ProjectCard
               image={comingSoon}
               title={"A Recipe Finder (Coming soon)"}
